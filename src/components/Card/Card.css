@@ -1,5 +1,7 @@
 .card {
 	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
 	background-color: #292a34;
 	color: #fff;
 	border: 0px;
@@ -12,4 +14,9 @@
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	background-color: #474a5a;
+}
+
+.card__content {
+	flex: 1 1 auto;
+	padding: 8px 12px;
 }
